@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
     - name: github-runner
-      image: ghcr.io/<my_username>/<my_repository_name>/github-runner:latest
+      image: ghcr.io/mariusvetrici/a-guide-to-mlops/github-runner:latest
       env:
         - name: GITHUB_RUNNER_LABEL
           value: "base-runner"
